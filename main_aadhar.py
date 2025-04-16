@@ -1,20 +1,13 @@
 import json
+import os
 from google import genai
 from pydantic import BaseModel, Field
 from typing import List, Optional
 
-from google import genai
-# Create a client
+# Initialize Gemini client
 api_key = "AIzaSyAxv3tpH8ZGdLMe6n8kseFDl2QxSGtan9M"
-client = genai.Client(api_key=api_key)
-
-# Define the model you are going to use
-model_id =  "gemini-2.0-flash" # or "gemini-2.0-flash-lite-preview-02-05"  , "gemini-2.0-pro-exp-02-05"
-
-
-# Configure Google Gemini API
-genai.configure(api_key="AIzaSyAxv3tpH8ZGdLMe6n8kseFDl2QxSGtan9M")
-
+client= genai.Client(api_key=api_key)
+model_id="gemini-2.0-flash"
 # Define Pydantic Schema for Aadhaar Card
 class AadhaarCard(BaseModel):
     name: str = Field(description="Full name of the Aadhaar cardholder")
@@ -26,12 +19,17 @@ class AadhaarCard(BaseModel):
 
 # Function to Extract Aadhaar Card Data
 def extract_aadhaar_data(file_path: str):
-    file = genai.upload_file(path=file_path, display_name="Aadhaar Card Image")
-    prompt = "Extract all key details from the Aadhaar card and return structured JSON."
+    if not os.path.exists(file_path):
+        return {"error": "File does not exist"}
 
-    response = genai.GenerativeModel("gemini-2.0-flash").generate_content(
-        [prompt, file],
-        generation_config={'response_mime_type': 'application/json'}
+    file = client.files.upload(file=file_path, config={'display_name': file_path.split('/')[-1].split('.')[0]})
+
+    prompt = "Extract all key details from the Aadhaar card and return structured JSON with keys: name, father_name, dob, gender, aadhaar_number, address."
+
+    response = client.models.generate_content(
+        model= model_id,
+        contents=[prompt, file],
+        config={'response_mime_type': 'application/json'}
     )
 
     try:
@@ -41,14 +39,14 @@ def extract_aadhaar_data(file_path: str):
 
     return extracted_data
 
-# Aadhaar Image Path (Update with correct file path)
-file_path = "Aadhar front_Khyati.jpeg"
+# Aadhaar Image Path (Update this to your actual file path)
+file_path = "ITR DOC\BASIC\AADHAR CARD WITH DOB.jpeg"  # Raw string to avoid path issues
 
 # Extract Data
 extracted_aadhaar = extract_aadhaar_data(file_path)
 
 # Save Extracted Data as JSON
-output_json = "aadhaar_card_data.json"
+output_json = "aadhaar_card_data_png.json"
 with open(output_json, "w") as json_file:
     json.dump(extracted_aadhaar, json_file, indent=4)
 
