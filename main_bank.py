@@ -6,7 +6,7 @@ from pdf2image import convert_from_path
 from typing import List, Dict, Optional
 from google import genai
 from pydantic import BaseModel, ValidationError
-# ──────── Set Up Gemini API ────────
+# ──────── Set Up Gemini API ─────
 api_key = "AIzaSyAxv3tpH8ZGdLMe6n8kseFDl2QxSGtan9M"  # Replace with your actual key
 client= genai.Client(api_key=api_key)
 model_id= "gemini-2.0-flash"
