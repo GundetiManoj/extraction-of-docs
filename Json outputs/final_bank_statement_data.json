@@ -1,0 +1,2644 @@
+{
+    "account_holder_name": "RAHUL RAMESH GAIKWAD",
+    "account_number": "919010082576132",
+    "address": "404/4 NEW JAIFALWADI SRA CO.OP.HSG\nSOCIETY LTD, TARDEO ROAD, TARDEO, MUMBAI\nBEHIND TARDEO POLICE LINE\nMUMBAI\nMAHARASHTRA-INDIA\n400036",
+    "transactions": [
+        {
+            "Tran Date": "",
+            "Chq No": "",
+            "Particulars": "OPENING BALANCE",
+            "Debit": "",
+            "Credit": "",
+            "Balance": "47667.74",
+            "Init.\nBr": ""
+        },
+        {
+            "Tran Date": "04-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/009512857742/Mr VIRAJ /Central B/UPI",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "48667.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/009512139733/SAGAR HAR/HDFC BANK/Satara",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "49667.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/009512140732/AKSHAY D /Indian Ov/Picnic",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "50667.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/009512139712/NITESH RA/Union Ban/Satara",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "51667.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-04-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/SATARA PETROL DEPO/SATARA/040420",
+            "Debit": "5000.00",
+            "Credit": "",
+            "Balance": "46667.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/009516280749/SWAPNIL S/Bank of I/Satara",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "47667.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "06-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/009721100525/GAIKWAD R/Svc co- op/March",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "37667.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "06-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/009721192809/EURONETGP/ICICI Ban/UPI",
+            "Debit": "21.00",
+            "Credit": "",
+            "Balance": "37646.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "07-04-2020",
+            "Chq No": "",
+            "Particulars": "BRN-PYMT-CARD-5593420005998259",
+            "Debit": "1892.00",
+            "Credit": "",
+            "Balance": "35754.74",
+            "Init.\nBr": "400"
+        },
+        {
+            "Tran Date": "08-04-2020",
+            "Chq No": "",
+            "Particulars": "Sign. Verf. Chrgs Mandate Regst/ Stop Pay/",
+            "Debit": "118.00",
+            "Credit": "",
+            "Balance": "35636.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/009922379484/EURONETGP/ICICI Ban/UPI",
+            "Debit": "21.00",
+            "Credit": "",
+            "Balance": "35615.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/009922374550/EURONETGP/ICICI Ban/UPI",
+            "Debit": "21.00",
+            "Credit": "",
+            "Balance": "35594.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-04-2020",
+            "Chq No": "",
+            "Particulars": "UPIP2MPAY/DECLINE/009922374550/08.04.20 20",
+            "Debit": "",
+            "Credit": "21.00",
+            "Balance": "35615.74",
+            "Init.\nBr": "100"
+        },
+        {
+            "Tran Date": "13-04-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/SBI KONDAVE ONSITE/SATARA/130420",
+            "Debit": "3500.00",
+            "Credit": "",
+            "Balance": "32115.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/010512441653/Mr RAHUL /Central B/UPI",
+            "Debit": "",
+            "Credit": "2400.00",
+            "Balance": "34515.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/010512444916/Mr RAHUL /Central B/UPI",
+            "Debit": "",
+            "Credit": "29.00",
+            "Balance": "34544.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "17-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/010822135897/Mr RAHUL /Central B/UPI",
+            "Debit": "",
+            "Credit": "500.00",
+            "Balance": "35044.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "18-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/010920115369/Mr RAHUL /Central B/UPI",
+            "Debit": "500.00",
+            "Credit": "",
+            "Balance": "34544.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "18-04-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/HPRU8Z4G4474/559342XXXXX X8259/91932611",
+            "Debit": "4000.00",
+            "Credit": "",
+            "Balance": "30544.74",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "18-04-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/RM1O39WU2366/559342XXXX XX8259/91932611",
+            "Debit": "544.74",
+            "Credit": "",
+            "Balance": "30000.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-04-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/CDM- SATARAPETROLDE/SATARA/200420",
+            "Debit": "3000.00",
+            "Credit": "",
+            "Balance": "27000.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "24-04-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/011512317184/Mr RAHUL /Central B/UPI",
+            "Debit": "",
+            "Credit": "2681.00",
+            "Balance": "29681.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "24-04-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/436 7 AKSHAY PLAZA/SATARA/240420",
+            "Debit": "1000.00",
+            "Credit": "",
+            "Balance": "28681.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-04-2020",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-SALARY FOR APRIL",
+            "Debit": "",
+            "Credit": "46121.00",
+            "Balance": "74802.00",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "01-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/012212453144/Mr RAHUL /Central B/UPI",
+            "Debit": "500.00",
+            "Credit": "",
+            "Balance": "74302.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/012510455508/GAIKWAD R/Svc co- op/April",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "64302.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/012510480497/GAIKWAD R/Svc co- op/April",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "54302.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/012510487131/GAIKWAD R/Svc co- op/April",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "44302.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/012510494159/GAIKWAD R/Svc co- op/April",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "34302.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/012510504028/GAIKWAD R/Svc co- op/April",
+            "Debit": "15000.00",
+            "Credit": "",
+            "Balance": "19302.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/012510512601/GAIKWAD R/Svc co- op/April",
+            "Debit": "15000.00",
+            "Credit": "",
+            "Balance": "4302.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-05-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/PTKMCAVK6038/559342XXXX XX8259/91932611",
+            "Debit": "2500.00",
+            "Credit": "",
+            "Balance": "1802.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "06-05-2020",
+            "Chq No": "",
+            "Particulars": "POS/SWARAJ PETROL AND/SATARA/060520/08:11",
+            "Debit": "800.00",
+            "Credit": "",
+            "Balance": "1002.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "11-05-2020",
+            "Chq No": "",
+            "Particulars": "VISA MERCH Refund/06-MAY-20/SWARAJ PETROL AND DIS",
+            "Debit": "",
+            "Credit": "6.00",
+            "Balance": "1008.00",
+            "Init.\nBr": "100"
+        },
+        {
+            "Tran Date": "11-05-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/N47A124Y7752/559342XXXXX X8259/91932611",
+            "Debit": "1008.00",
+            "Credit": "",
+            "Balance": ".00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "12-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/013308607410/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "1000.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "12-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/013308619928/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "2400.00",
+            "Balance": "3400.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "12-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/013309815012/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "2000.00",
+            "Balance": "5400.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "12-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/013309107137/Mr RAHUL /Central B/UPI",
+            "Debit": "",
+            "Credit": "352.00",
+            "Balance": "5752.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "12-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/013309943407/billdeskt/ICICI Ban/UPI",
+            "Debit": "5420.00",
+            "Credit": "",
+            "Balance": "332.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "13-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/013420366615/GAIKWAD R/Svc co- op/Nikunj",
+            "Debit": "",
+            "Credit": "10000.00",
+            "Balance": "10332.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "13-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/013420369171/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "10000.00",
+            "Balance": "20332.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/013511942350/NIKUNJ J /Indian Ov/UPI",
+            "Debit": "5000.00",
+            "Credit": "",
+            "Balance": "15332.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/013511949342/NIKUNJ J /Indian Ov/UPI",
+            "Debit": "5000.00",
+            "Credit": "",
+            "Balance": "10332.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/013511998638/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "332.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/014123387950/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "500.00",
+            "Balance": "832.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/014123714904/PARIJAT M/Axis Bank/UPI",
+            "Debit": "500.00",
+            "Credit": "",
+            "Balance": "332.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "24-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/014511118878/PARIJAT M/Axis Bank/Na",
+            "Debit": "",
+            "Credit": "500.00",
+            "Balance": "832.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015114031180/MS SWETHA/Standard /UPI",
+            "Debit": "",
+            "Credit": "4300.00",
+            "Balance": "5132.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015114053484/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "4300.00",
+            "Credit": "",
+            "Balance": "832.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015114075877/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "500.00",
+            "Credit": "",
+            "Balance": "332.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-05-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015114086080/GOOGLEPAY/Axis Bank/Rewarde",
+            "Debit": "",
+            "Credit": "5.00",
+            "Balance": "337.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-05-2020",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-SALARY FOR MAY 2",
+            "Debit": "",
+            "Credit": "46118.00",
+            "Balance": "46455.00",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "02-06-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/H4SB3H3B2543/559342XXXXX X8259/91932611",
+            "Debit": "4607.00",
+            "Credit": "",
+            "Balance": "41848.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015410068198/GAIKWAD R/Svc co- op/May",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "31848.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015410075106/GOOGLEPAY/Axis Bank/Rewarde",
+            "Debit": "",
+            "Credit": "5.00",
+            "Balance": "31853.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015410076275/GAIKWAD R/Svc co- op/May",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "21853.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015410085657/GAIKWAD R/Svc co- op/May",
+            "Debit": "15000.00",
+            "Credit": "",
+            "Balance": "6853.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-06-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/P53DTXSD6901/559342XXXXX X8259/91932611",
+            "Debit": "1853.00",
+            "Credit": "",
+            "Balance": "5000.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015410479441/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "3147.00",
+            "Balance": "8147.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-06-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/QKCDCJWG0343/559342XXXX XX8259/91932611",
+            "Debit": "3147.00",
+            "Credit": "",
+            "Balance": "5000.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-06-2020",
+            "Chq No": "",
+            "Particulars": "NEFT/MB/AXMB201547245717/ravikant upadhyaybe safe",
+            "Debit": "5000.00",
+            "Credit": "",
+            "Balance": ".00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015411230101/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "500.00",
+            "Balance": "500.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "05-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015722449572/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "1500.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "05-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/015722329396/YADVENDRA/Punjab Na/As per",
+            "Debit": "1000.00",
+            "Credit": "",
+            "Balance": "500.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/016120470643/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "10000.00",
+            "Balance": "10500.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/016121464913/NIKUNJ J /Indian Ov/Samadha",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "500.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-06-2020",
+            "Chq No": "",
+            "Particulars": "NEFT/000115503781/ARYAN RAMESH GAIKWAD//URGENT/",
+            "Debit": "",
+            "Credit": "500.00",
+            "Balance": "1000.00",
+            "Init.\nBr": "248"
+        },
+        {
+            "Tran Date": "17-06-2020",
+            "Chq No": "",
+            "Particulars": "INB/749596028/NACH E MANDATE/NACH0000000002309991",
+            "Debit": "1.00",
+            "Credit": "",
+            "Balance": "999.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "17-06-2020",
+            "Chq No": "",
+            "Particulars": "INB/749596853/NACH E MANDATE/NACH0000000002309991",
+            "Debit": "1.00",
+            "Credit": "",
+            "Balance": "998.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "18-06-2020",
+            "Chq No": "",
+            "Particulars": "ECOM PUR/MOBIKWIK/GURGAON/180620/12:44",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "849.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/017218539152/billdeskt/ICICI Ban/UPI",
+            "Debit": "555.00",
+            "Credit": "",
+            "Balance": "294.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "27-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/017919893695/Mahananda/Paytm Pay/UPI",
+            "Debit": "20.00",
+            "Credit": "",
+            "Balance": "274.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "28-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/018015949086/AKSHAY D /Indian Ov/Testing",
+            "Debit": "",
+            "Credit": "10.00",
+            "Balance": "284.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "28-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/018015959576/AKSHAY D /Indian Ov/Domain",
+            "Debit": "",
+            "Credit": "1700.00",
+            "Balance": "1984.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-06-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/6F49O90W1400/559342XXXXX X8259/91932611",
+            "Debit": "1800.00",
+            "Credit": "",
+            "Balance": "184.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/018216471097/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "4200.00",
+            "Balance": "4384.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-06-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/018218125998/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "4200.00",
+            "Credit": "",
+            "Balance": "184.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-06-2020",
+            "Chq No": "",
+            "Particulars": "919010082576132:Int.Pd:01-04-2020 to 30-06- 2020",
+            "Debit": "",
+            "Credit": "137.00",
+            "Balance": "321.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-06-2020",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-SALARY FOR JUNE",
+            "Debit": "",
+            "Credit": "47503.00",
+            "Balance": "47824.00",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "01-07-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/018309242542/MS SWETHA/Standard /UPI",
+            "Debit": "",
+            "Credit": "4200.00",
+            "Balance": "52024.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "01-07-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/5UJZ8RVD8000/559342XXXXX X8259/91932611",
+            "Debit": "21120.60",
+            "Credit": "",
+            "Balance": "30903.40",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "01-07-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/018309824243/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "4200.00",
+            "Credit": "",
+            "Balance": "26703.40",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "01-07-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/018318809093/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "5000.00",
+            "Credit": "",
+            "Balance": "21703.40",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "01-07-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/018319630438/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "10.00",
+            "Balance": "21713.40",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "01-07-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/018319672403/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "10.00",
+            "Credit": "",
+            "Balance": "21703.40",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-07-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "3081.00",
+            "Credit": "",
+            "Balance": "18622.40",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "02-07-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "18191.00",
+            "Credit": "",
+            "Balance": "431.40",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "08-07-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/019013084770/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "10.00",
+            "Balance": "441.40",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-07-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/019013088809/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "5000.00",
+            "Balance": "5441.40",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-07-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/019013092253/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "5000.00",
+            "Balance": "10441.40",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-07-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/INDUSIND BANK LIMI/MUMBAI/080720",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "441.40",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "31-07-2020",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-TWRDS SALARY FOR",
+            "Debit": "",
+            "Credit": "47515.00",
+            "Balance": "47956.40",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "02-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/021519367552/Mahananda/Paytm Pay/UPI",
+            "Debit": "35.00",
+            "Credit": "",
+            "Balance": "47921.40",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "03-08-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "2846.00",
+            "Credit": "",
+            "Balance": "45075.40",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "03-08-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "17766.00",
+            "Credit": "",
+            "Balance": "27309.40",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "03-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/021618204170/EURONETGP/ICICI Ban/UPI",
+            "Debit": "21.00",
+            "Credit": "",
+            "Balance": "27288.40",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "07-08-2020",
+            "Chq No": "",
+            "Particulars": "BRN-PYMT-CARD-5593420005998259",
+            "Debit": "205.83",
+            "Credit": "",
+            "Balance": "27082.57",
+            "Init.\nBr": "400"
+        },
+        {
+            "Tran Date": "08-08-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH- AXIS/TPCN134501/8166/080820/MUMBAI",
+            "Debit": "500.00",
+            "Credit": "",
+            "Balance": "26582.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/022115818110/SWETHA RA/ICICI Ban/Meri ta",
+            "Debit": "200.00",
+            "Credit": "",
+            "Balance": "26382.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "10-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/022310342886/billdeskt/ICICI Ban/UPI",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "26233.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "11-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/022420401250/billdeskt/ICICI Ban/UPI",
+            "Debit": "21.00",
+            "Credit": "",
+            "Balance": "26212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/022718393132/GAIKWAD R/Svc co- op/July",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "16212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/022718406296/GAIKWAD R/Svc co- op/July",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "6212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/022718426865/GAIKWAD R/Svc co- op/July",
+            "Debit": "6000.00",
+            "Credit": "",
+            "Balance": "212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "15-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/022819347071/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "2900.00",
+            "Balance": "3112.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "15-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/022819898928/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "2900.00",
+            "Credit": "",
+            "Balance": "212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "18-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/023111475626/GAIKWAD R/Svc co- op/Decorat",
+            "Debit": "",
+            "Credit": "2000.00",
+            "Balance": "2212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "18-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/023111485815/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "3212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "18-08-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH- AXIS/TPCN134501/186/180820/MUMBAI",
+            "Debit": "3000.00",
+            "Credit": "",
+            "Balance": "212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "25-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/023817083359/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "2000.00",
+            "Balance": "2212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "25-08-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/+SVMARG/MUMBAI/250820",
+            "Debit": "2000.00",
+            "Credit": "",
+            "Balance": "212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "25-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/023818113574/GAIKWAD R/Svc co- op/Cash",
+            "Debit": "",
+            "Credit": "2000.00",
+            "Balance": "2212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "25-08-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/+SVMARG/MUMBAI/250820",
+            "Debit": "2000.00",
+            "Credit": "",
+            "Balance": "212.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "25-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/023823887102/EURONETGP/ICICI Ban/UPI",
+            "Debit": "21.00",
+            "Credit": "",
+            "Balance": "191.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-08-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/024318015626/EURONETGP/ICICI Ban/UPI",
+            "Debit": "21.00",
+            "Credit": "",
+            "Balance": "170.57",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "31-08-2020",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-SALARY FOR AUGUS",
+            "Debit": "",
+            "Credit": "47515.00",
+            "Balance": "47685.57",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "02-09-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "2846.00",
+            "Credit": "",
+            "Balance": "44839.57",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "02-09-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "17766.00",
+            "Credit": "",
+            "Balance": "27073.57",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "02-09-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/U2KEIATO5914/559342XXXXX X8259/91932611",
+            "Debit": "3163.57",
+            "Credit": "",
+            "Balance": "23910.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "03-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/024719185882/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "300.00",
+            "Credit": "",
+            "Balance": "23610.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "03-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/024801179488/GOOGLEPAY/Axis Bank/Rewarde",
+            "Debit": "",
+            "Credit": "5.00",
+            "Balance": "23615.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/024811179593/hathway/Axis Bank/UPI Tran",
+            "Debit": "1814.00",
+            "Credit": "",
+            "Balance": "21801.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "06-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/025020006326/MC DONALD/HDFC BANK/UPI",
+            "Debit": "842.90",
+            "Credit": "",
+            "Balance": "20958.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "06-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/025023084892/NITESH RA/Union Ban/UPI",
+            "Debit": "833.00",
+            "Credit": "",
+            "Balance": "20125.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "06-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/025100398441/GAIKWAD R/Svc co- op/August",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "10125.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "06-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/025100400340/GAIKWAD R/Svc co- op/August",
+            "Debit": "10000.00",
+            "Credit": "",
+            "Balance": "125.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "07-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/025115004385/AISHWARYA/Axis Bank/UPI",
+            "Debit": "",
+            "Credit": "421.00",
+            "Balance": "546.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/025212019687/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "10000.00",
+            "Balance": "10546.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/025212033716/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "10000.00",
+            "Balance": "20546.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-09-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH- AXIS/TPCN134501/3802/080920/MUMBAI",
+            "Debit": "20000.00",
+            "Credit": "",
+            "Balance": "546.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "15-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/025911307689/EURONETGP/ICICI Ban/UPI",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "397.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "15-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/025911318851/billdeskt/ICICI Ban/UPI",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "248.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-09-2020",
+            "Chq No": "",
+            "Particulars": "GST @18% on Charge",
+            "Debit": "9.00",
+            "Credit": "",
+            "Balance": "239.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-09-2020",
+            "Chq No": "",
+            "Particulars": "Consolidated Charges for A/c",
+            "Debit": "50.00",
+            "Credit": "",
+            "Balance": "189.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "24-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/026818831372/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "3000.00",
+            "Balance": "3189.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "24-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/026820492540/AKBAR ZIA/Axis Bank/UPI",
+            "Debit": "1000.00",
+            "Credit": "",
+            "Balance": "2189.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "25-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/026911564195/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "3189.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "25-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/026911728480/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "4189.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "25-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/026915885639/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "1.00",
+            "Credit": "",
+            "Balance": "4188.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "25-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/026917438887/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "4000.00",
+            "Credit": "",
+            "Balance": "188.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-09-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/027416155681/MS SWETHA/Standard /UPI",
+            "Debit": "",
+            "Credit": "5700.00",
+            "Balance": "5888.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-09-2020",
+            "Chq No": "",
+            "Particulars": "919010082576132:Int.Pd:01-07-2020 to 30-09- 2020",
+            "Debit": "",
+            "Credit": "61.00",
+            "Balance": "5949.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-09-2020",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-SALARY FOR SEPTE",
+            "Debit": "",
+            "Credit": "47515.00",
+            "Balance": "53464.10",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "03-10-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "17766.00",
+            "Credit": "",
+            "Balance": "35698.10",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "03-10-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "2846.00",
+            "Credit": "",
+            "Balance": "32852.10",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "03-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/027715407395/billdeskt/ICICI Ban/UPI",
+            "Debit": "21.00",
+            "Credit": "",
+            "Balance": "32831.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-10-2020",
+            "Chq No": "",
+            "Particulars": "NEFT/MB/AXMB202784144952/Resonancearyan gaikwad-f",
+            "Debit": "20000.00",
+            "Credit": "",
+            "Balance": "12831.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/027811458585/EURONETGP/ICICI Ban/UPI",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "12682.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/027821746996/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "12600.00",
+            "Credit": "",
+            "Balance": "82.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "05-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/027914098179/SWETHA RA/ICICI Ban/Casa fe",
+            "Debit": "",
+            "Credit": "3000.00",
+            "Balance": "3082.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "05-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/027915633774/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "3000.00",
+            "Credit": "",
+            "Balance": "82.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "05-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/027915653322/GOOGLEPAY/Axis Bank/Rewarde",
+            "Debit": "",
+            "Credit": "5.00",
+            "Balance": "87.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "05-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/027915240993/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "3000.00",
+            "Balance": "3087.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "05-10-2020",
+            "Chq No": "",
+            "Particulars": "ECOM PUR/MAKEMYTRIP IN/NEW DELHI/051020/10:02",
+            "Debit": "2572.00",
+            "Credit": "",
+            "Balance": "515.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/028217443326/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "500.00",
+            "Balance": "1015.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/028219170166/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "1.00",
+            "Balance": "1016.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/028220204961/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "6000.00",
+            "Balance": "7016.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/028310645923/SAVIO JOS/State Ban/Ramesh",
+            "Debit": "6000.00",
+            "Credit": "",
+            "Balance": "1016.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-10-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH- AXIS/TPCN134501/8583/091020/MUMBAI",
+            "Debit": "500.00",
+            "Credit": "",
+            "Balance": "516.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/028313416579/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "2000.00",
+            "Balance": "2516.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/028313159033/MS SWETHA/Standard /UPI",
+            "Debit": "2000.00",
+            "Credit": "",
+            "Balance": "516.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "10-10-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH- AXIS/TPCN134501/8752/101020/MUMBAI",
+            "Debit": "500.00",
+            "Credit": "",
+            "Balance": "16.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "11-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/028514255652/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "500.00",
+            "Balance": "516.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "11-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/028514411130/GOSEL RAJ/Kotak Mah/UPI",
+            "Debit": "500.00",
+            "Credit": "",
+            "Balance": "16.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "13-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/028718050406/BHAI RAJE/Dena Bank/UPI",
+            "Debit": "",
+            "Credit": "1.00",
+            "Balance": "17.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "13-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/028718063306/BHAI RAJE/Dena Bank/UPI",
+            "Debit": "",
+            "Credit": "1400.00",
+            "Balance": "1417.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-10-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/0O6KYU0S1763/559342XXXXX X8259/91932611",
+            "Debit": "1168.00",
+            "Credit": "",
+            "Balance": "249.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "19-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/029312543304/RESHMI TA/HDFC BANK/Trf",
+            "Debit": "",
+            "Credit": "2000.00",
+            "Balance": "2249.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "19-10-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH- AXIS/BPRH134501/7278/191020/MUMBAI",
+            "Debit": "2000.00",
+            "Credit": "",
+            "Balance": "249.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "22-10-2020",
+            "Chq No": "",
+            "Particulars": "ECS / NACH Transaction Fee-Sep2020",
+            "Debit": "100.00",
+            "Credit": "",
+            "Balance": "149.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "26-10-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/030023182508/BHANUSHAL/ICICI Ban/Pkl Pro",
+            "Debit": "",
+            "Credit": "500.00",
+            "Balance": "649.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "31-10-2020",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-FOR OCTOBER 2020",
+            "Debit": "",
+            "Credit": "47515.00",
+            "Balance": "48164.10",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "02-11-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "17766.00",
+            "Credit": "",
+            "Balance": "30398.10",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "02-11-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "2846.00",
+            "Credit": "",
+            "Balance": "27552.10",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "02-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/030719303686/billdeskt/ICICI Ban/UPI",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "27403.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "03-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/030809563013/JAYESH SH/Kotak Mah/Gujarat",
+            "Debit": "4053.00",
+            "Credit": "",
+            "Balance": "23350.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "03-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/030809574268/GOOGLEPAY/Axis Bank/Rewarde",
+            "Debit": "",
+            "Credit": "5.00",
+            "Balance": "23355.10",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "03-11-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/2KBNUX7Q9156/559342XXXXX X8259/91932611",
+            "Debit": "20141.62",
+            "Credit": "",
+            "Balance": "3213.48",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/031309412322/EURONETGP/ICICI Ban/UPI",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "3064.48",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-11-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/SHOP NO 11 JAYWANT/MUMBAI/081120",
+            "Debit": "500.00",
+            "Credit": "",
+            "Balance": "2564.48",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-11-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/+WORLI ONSITE/MUMBAI/081120",
+            "Debit": "400.00",
+            "Credit": "",
+            "Balance": "2164.48",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/031313193339/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "6000.00",
+            "Balance": "8164.48",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-11-2020",
+            "Chq No": "",
+            "Particulars": "POS/WESTSIDE/MUMBAI/081120/08:24",
+            "Debit": "5609.75",
+            "Credit": "",
+            "Balance": "2554.73",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/031323662113/Mr VIRAJ /Central B/UPI",
+            "Debit": "433.00",
+            "Credit": "",
+            "Balance": "2121.73",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/031323670031/GOOGLEPAY/Axis Bank/Rewarde",
+            "Debit": "",
+            "Credit": "2.00",
+            "Balance": "2123.73",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/031405135113/GOOGLEPAY/Axis Bank/UPI",
+            "Debit": "",
+            "Credit": "6.00",
+            "Balance": "2129.73",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/031405136459/GOOGLEPAY/Axis Bank/UPI",
+            "Debit": "",
+            "Credit": "5.00",
+            "Balance": "2134.73",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/031410284837/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "2100.00",
+            "Credit": "",
+            "Balance": "34.73",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "10-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/031508423826/KAJAL JAY/Bank of B/Project",
+            "Debit": "",
+            "Credit": "4500.00",
+            "Balance": "4534.73",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "10-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/031509856436/SWETHA RA/ICICI Ban/facial",
+            "Debit": "4500.00",
+            "Credit": "",
+            "Balance": "34.73",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "11-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/031619035163/RESHMA RA/State Ban/UPI",
+            "Debit": "",
+            "Credit": "150.00",
+            "Balance": "184.73",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "13-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/031823047520/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "6000.00",
+            "Balance": "6184.73",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "13-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/031823867247/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "6000.00",
+            "Credit": "",
+            "Balance": "184.73",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-11-2020",
+            "Chq No": "",
+            "Particulars": "GST @18% on Charge",
+            "Debit": "28.18",
+            "Credit": "",
+            "Balance": "156.55",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-11-2020",
+            "Chq No": "",
+            "Particulars": "Consolidated Charges for A/c",
+            "Debit": "156.55",
+            "Credit": "",
+            "Balance": ".00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/032511502238/KAJAL JAY/Bank of B/Fraud p",
+            "Debit": "",
+            "Credit": "1500.00",
+            "Balance": "1500.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/032511574740/Mr RAHUL /Central B/UPI",
+            "Debit": "1300.00",
+            "Credit": "",
+            "Balance": "200.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "22-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/032722472338/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "1.00",
+            "Balance": "201.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "22-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/032722477329/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "500.00",
+            "Balance": "701.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "22-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/032723104872/VIRAJ PRA/Bank of I/Rahul A",
+            "Debit": "500.00",
+            "Credit": "",
+            "Balance": "201.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "23-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/032810258096/KAJAL JAY/Bank of B/Cluster",
+            "Debit": "",
+            "Credit": "1500.00",
+            "Balance": "1701.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "26-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/033112875029/EURONETGP/ICICI Ban/UPI",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "1552.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "27-11-2020",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-SALARY FOR NOVEM",
+            "Debit": "",
+            "Credit": "47515.00",
+            "Balance": "49067.00",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "27-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/033216679498/KAJAL JAY/Bank of B/Drone P",
+            "Debit": "",
+            "Credit": "20000.00",
+            "Balance": "69067.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "27-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/033216683651/KAJAL JAY/Bank of B/Drone p",
+            "Debit": "",
+            "Credit": "15000.00",
+            "Balance": "84067.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/033522305630/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "4500.00",
+            "Balance": "88567.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/033522949998/MS SWETHA/Standard /UPI",
+            "Debit": "4500.00",
+            "Credit": "",
+            "Balance": "84067.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/033522350726/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "",
+            "Credit": "4500.00",
+            "Balance": "88567.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-11-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/033522070604/MS SWETHA/Standard /UPI",
+            "Debit": "4500.00",
+            "Credit": "",
+            "Balance": "84067.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-12-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/033710012424/GAIKWAD R/Svc co- op/bajaj m",
+            "Debit": "4000.00",
+            "Credit": "",
+            "Balance": "80067.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-12-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/033710026893/GOOGLEPAY/Axis Bank/Rewarde",
+            "Debit": "",
+            "Credit": "2.00",
+            "Balance": "80069.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-12-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "17766.00",
+            "Credit": "",
+            "Balance": "62303.00",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "02-12-2020",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "2846.00",
+            "Credit": "",
+            "Balance": "59457.00",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "03-12-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/033810782102/GAIKWAD R/Svc co- op/rajapur",
+            "Debit": "15000.00",
+            "Credit": "",
+            "Balance": "44457.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "03-12-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/033810797385/GAIKWAD R/Svc co- op/rajapur",
+            "Debit": "15000.00",
+            "Credit": "",
+            "Balance": "29457.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "03-12-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/033810810445/GAIKWAD R/Svc co- op/rajapur",
+            "Debit": "8000.00",
+            "Credit": "",
+            "Balance": "21457.00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "04-12-2020",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/FE9D6OSM3503/559342XXXXX X8259/91932611",
+            "Debit": "490.93",
+            "Credit": "",
+            "Balance": "20966.07",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "05-12-2020",
+            "Chq No": "",
+            "Particulars": "NEFT/MB/AXMB203400261960/Resonanc/ICICI B/",
+            "Debit": "20000.00",
+            "Credit": "",
+            "Balance": "966.07",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "05-12-2020",
+            "Chq No": "",
+            "Particulars": "ECOM PUR/EDUCATION SP/HI DL/051220/19:39",
+            "Debit": "202.00",
+            "Credit": "",
+            "Balance": "764.07",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "07-12-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/034221398661/JAYESH SH/Kotak Mah/refund",
+            "Debit": "",
+            "Credit": "1253.00",
+            "Balance": "2017.07",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "08-12-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/034316483439/GAIKWAD R/Svc co- op/Waight",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "3017.07",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-12-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/034416104084/KAJAL JAY/Bank of B/Multi l",
+            "Debit": "",
+            "Credit": "1500.00",
+            "Balance": "4517.07",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "12-12-2020",
+            "Chq No": "",
+            "Particulars": "GST @18% on Charge",
+            "Debit": "34.82",
+            "Credit": "",
+            "Balance": "4482.25",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "12-12-2020",
+            "Chq No": "",
+            "Particulars": "Consolidated Charges for A/c",
+            "Debit": "193.45",
+            "Credit": "",
+            "Balance": "4288.80",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-12-2020",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/+SVMARG/MUMBAI/141220",
+            "Debit": "3000.00",
+            "Credit": "",
+            "Balance": "1288.80",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "15-12-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/035014015049/RAHUL SIN/ICICI Ban/lunch",
+            "Debit": "300.00",
+            "Credit": "",
+            "Balance": "988.80",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-12-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/035510035246/EURONETGP/ICICI Ban/UPI",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "839.80",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-12-2020",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/035518256778/MS SWETHA/Standard /bhog ka",
+            "Debit": "800.00",
+            "Credit": "",
+            "Balance": "39.80",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "30-12-2020",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-TWD SALARY MONTH",
+            "Debit": "",
+            "Credit": "47503.00",
+            "Balance": "47542.80",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "31-12-2020",
+            "Chq No": "",
+            "Particulars": "919010082576132:Int.Pd:01-10-2020 to 31-12- 2020",
+            "Debit": "",
+            "Credit": "83.00",
+            "Balance": "47625.80",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "01-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/100120838019/billdeskt/ICICI Ban/UPI",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "47476.80",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "01-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/100120963348/EURONETGP/ICICI Ban/UPI",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "47327.80",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-01-2021",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/+NAIR/MUMBAI/020121",
+            "Debit": "9000.00",
+            "Credit": "",
+            "Balance": "38327.80",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/100214330917/Mr ATUL R/Central B/kerosin",
+            "Debit": "120.00",
+            "Credit": "",
+            "Balance": "38207.80",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-01-2021",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "17766.00",
+            "Credit": "",
+            "Balance": "20441.80",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "02-01-2021",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "2846.00",
+            "Credit": "",
+            "Balance": "17595.80",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "02-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/100221053862/SAGAR TAN/Syndicate/aaji me",
+            "Debit": "476.00",
+            "Credit": "",
+            "Balance": "17119.80",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "06-01-2021",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/NDAWFZX18906/559342XXXX XX8259/91932611",
+            "Debit": "1248.11",
+            "Credit": "",
+            "Balance": "15871.69",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "06-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/100617178314/EURONETGP/ICICI Ban/UPI",
+            "Debit": "21.00",
+            "Credit": "",
+            "Balance": "15850.69",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "07-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/100712063587/EURONETGP/ICICI Ban/UPI",
+            "Debit": "21.00",
+            "Credit": "",
+            "Balance": "15829.69",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "07-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/100714834697/NITESH RA/Union Ban/bike ma",
+            "Debit": "250.00",
+            "Credit": "",
+            "Balance": "15579.69",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/100918629248/Mr RAHUL /Central B/Savings",
+            "Debit": "1000.00",
+            "Credit": "",
+            "Balance": "14579.69",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/100918319365/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "1000.00",
+            "Balance": "15579.69",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "09-01-2021",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/KN0BMHF96881/559342XXXXX X8259/91932611",
+            "Debit": "15000.00",
+            "Credit": "",
+            "Balance": "579.69",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/101409085020/FAHEEM/Svc co- op/UPI",
+            "Debit": "70.00",
+            "Credit": "",
+            "Balance": "509.69",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/101423932368/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "285.00",
+            "Balance": "794.69",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-01-2021",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/7P60D7ZP7570/559342XXXXXX 8259/91932611",
+            "Debit": "750.00",
+            "Credit": "",
+            "Balance": "44.69",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "16-01-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/101609096886/Mr RAHUL /Central B/phone r",
+            "Debit": "40.00",
+            "Credit": "",
+            "Balance": "4.69",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "17-01-2021",
+            "Chq No": "",
+            "Particulars": "GST @18% on Charge",
+            "Debit": ".72",
+            "Credit": "",
+            "Balance": "3.97",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "17-01-2021",
+            "Chq No": "",
+            "Particulars": "Consolidated Charges for A/c",
+            "Debit": "3.97",
+            "Credit": "",
+            "Balance": ".00",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "18-01-2021",
+            "Chq No": "",
+            "Particulars": "Err ECNAC Fee Rvsl 12-2020",
+            "Debit": "",
+            "Credit": "4.68",
+            "Balance": "4.68",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-01-2021",
+            "Chq No": "",
+            "Particulars": "IMPS/P2A/102016472216/ZERODHAB/HDFCB ANK/",
+            "Debit": "",
+            "Credit": "1.00",
+            "Balance": "5.68",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "29-01-2021",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-TWD SALARY MONTH",
+            "Debit": "",
+            "Credit": "47515.00",
+            "Balance": "47520.68",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "31-01-2021",
+            "Chq No": "",
+            "Particulars": "POS/YELLOW BANANA FOO/Mumbai/310121/21:26",
+            "Debit": "1414.36",
+            "Credit": "",
+            "Balance": "46106.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "01-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/103211083636/MS SWETHA/Standard /UPI",
+            "Debit": "",
+            "Credit": "5000.00",
+            "Balance": "51106.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "01-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/103211118541/NITESH RA/Union Ban/UPI",
+            "Debit": "5000.00",
+            "Credit": "",
+            "Balance": "46106.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-02-2021",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "2846.00",
+            "Credit": "",
+            "Balance": "43260.32",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "02-02-2021",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "17766.00",
+            "Credit": "",
+            "Balance": "25494.32",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "02-02-2021",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/ENZ1B17Y5463/559342XXXXX X8259/91932611",
+            "Debit": "22345.00",
+            "Credit": "",
+            "Balance": "3149.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-02-2021",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/EZY94BDH3507/559342XXXXX X8259/91932611",
+            "Debit": "1.00",
+            "Credit": "",
+            "Balance": "3148.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-02-2021",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/FBSJBJTI0470/559342XXXXXX 8259/91932611",
+            "Debit": "1.00",
+            "Credit": "",
+            "Balance": "3147.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/103318028601/MS SWETHA/Standard /UPI",
+            "Debit": "2000.00",
+            "Credit": "",
+            "Balance": "1147.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/103318195615/Mr RAHUL /Central B/UPI",
+            "Debit": "500.00",
+            "Credit": "",
+            "Balance": "647.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "10-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/104116319089/billdeskt/ICICI Ban/UPI",
+            "Debit": "149.00",
+            "Credit": "",
+            "Balance": "498.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "11-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/104221027770/AKSHAY D /Indian Ov/picnic",
+            "Debit": "",
+            "Credit": "4500.00",
+            "Balance": "4998.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "11-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/104221057241/BharatpeM/ICICI Ban/Pay To",
+            "Debit": "2634.00",
+            "Credit": "",
+            "Balance": "2364.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "11-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/104223497945/GAIKWAD R/Svc co- op/UPI",
+            "Debit": "",
+            "Credit": "3000.00",
+            "Balance": "5364.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "12-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/104319902171/Mr VIRAJ /Central B/guhagha",
+            "Debit": "4000.00",
+            "Credit": "",
+            "Balance": "1364.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "13-02-2021",
+            "Chq No": "",
+            "Particulars": "GST @18% on Charge",
+            "Debit": "18.00",
+            "Credit": "",
+            "Balance": "1346.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "13-02-2021",
+            "Chq No": "",
+            "Particulars": "Consolidated Charges for A/c",
+            "Debit": "100.00",
+            "Credit": "",
+            "Balance": "1246.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "14-02-2021",
+            "Chq No": "",
+            "Particulars": "ATM-CASH/BOI MANDANGAD/RATNAGIRI/140221",
+            "Debit": "1000.00",
+            "Credit": "",
+            "Balance": "246.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "26-02-2021",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-TWD SALARY MONTH",
+            "Debit": "",
+            "Credit": "43885.00",
+            "Balance": "44131.32",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "26-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/105722775531/NITESH RA/Union Ban/UPI",
+            "Debit": "2300.00",
+            "Credit": "",
+            "Balance": "41831.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "27-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/105821071611/Mr RAHUL /Central B/Bol",
+            "Debit": "",
+            "Credit": "500.00",
+            "Balance": "42331.32",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "27-02-2021",
+            "Chq No": "",
+            "Particulars": "MOB/CCPMT/1QEK82BS0885/559342XXXXX X8259/91932611",
+            "Debit": "246.62",
+            "Credit": "",
+            "Balance": "42084.70",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "28-02-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/105916613539/Aaditi ph/Paytm Pay/UPI",
+            "Debit": "4.00",
+            "Credit": "",
+            "Balance": "42080.70",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "02-03-2021",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "2846.00",
+            "Credit": "",
+            "Balance": "39234.70",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "02-03-2021",
+            "Chq No": "",
+            "Particulars": "NACH-DR- Bajaj Housing Financ",
+            "Debit": "17766.00",
+            "Credit": "",
+            "Balance": "21468.70",
+            "Init.\nBr": "2567"
+        },
+        {
+            "Tran Date": "03-03-2021",
+            "Chq No": "",
+            "Particulars": "NEFT/MB/AXMB210628964392/Resonanc/ICICI B/march i",
+            "Debit": "20000.00",
+            "Credit": "",
+            "Balance": "1468.70",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "06-03-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/106510692860/SWETHA RA/ICICI Ban/UPI",
+            "Debit": "400.00",
+            "Credit": "",
+            "Balance": "1068.70",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "06-03-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/106516608318/EURONETGP/ICICI Ban/UPI",
+            "Debit": "555.00",
+            "Credit": "",
+            "Balance": "513.70",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "13-03-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/107210875002/RAHUL SIN/ICICI Ban/lunch",
+            "Debit": "150.00",
+            "Credit": "",
+            "Balance": "363.70",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "15-03-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2A/107410343011/Mr RAHUL /Central B/UPI",
+            "Debit": "",
+            "Credit": "2000.00",
+            "Balance": "2363.70",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "15-03-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/107410638690/Zerodha B/HDFC BANK/Kite de",
+            "Debit": "2000.00",
+            "Credit": "",
+            "Balance": "363.70",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "20-03-2021",
+            "Chq No": "",
+            "Particulars": "GST on charges debited 221020",
+            "Debit": "18.00",
+            "Credit": "",
+            "Balance": "345.70",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "27-03-2021",
+            "Chq No": "",
+            "Particulars": "NEFT/N086211453420954/ZERODHA B/HDFC BANK/2603202",
+            "Debit": "",
+            "Credit": "1870.00",
+            "Balance": "2215.70",
+            "Init.\nBr": "248"
+        },
+        {
+            "Tran Date": "30-03-2021",
+            "Chq No": "",
+            "Particulars": "UPI/P2M/108909257219/Zerodha B/HDFC BANK/Kite de",
+            "Debit": "1870.00",
+            "Credit": "",
+            "Balance": "345.70",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "31-03-2021",
+            "Chq No": "",
+            "Particulars": "BRN-SALARY PAYMENT-TWD SALARY MONTH",
+            "Debit": "",
+            "Credit": "39878.00",
+            "Balance": "40223.70",
+            "Init.\nBr": "101"
+        },
+        {
+            "Tran Date": "31-03-2021",
+            "Chq No": "",
+            "Particulars": "919010082576132:Int.Pd:01-01-2021 to 31-03- 2021",
+            "Debit": "",
+            "Credit": "51.00",
+            "Balance": "40274.70",
+            "Init.\nBr": "173"
+        },
+        {
+            "Tran Date": "",
+            "Chq No": "",
+            "Particulars": "TRANSACTION TOTAL",
+            "Debit": "786816.72",
+            "Credit": "779423.68",
+            "Balance": "",
+            "Init.\nBr": ""
+        },
+        {
+            "Tran Date": "",
+            "Chq No": "",
+            "Particulars": "CLOSING BALANCE",
+            "Debit": "",
+            "Credit": "",
+            "Balance": "40274.70",
+            "Init.\nBr": ""
+        }
+    ]
+}

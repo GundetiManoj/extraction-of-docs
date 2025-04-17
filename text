@@ -1,0 +1,78 @@
+import json
+import os
+from google import genai
+from pydantic import BaseModel, Field
+from typing import List, Optional, Dict, Any
+import pydantic
+# Initialize Gemini client (replace with your actual API key)
+api_key = "AIzaSyAxv3tpH8ZGdLMe6n8kseFDl2QxSGtan9M"  # Replace with your actual API key
+client = genai.Client(api_key=api_key)
+model_id = "gemini-2.0-flash"
+
+
+# Define Pydantic Schema for Bank Statement (adapt as needed)
+class BankStatement(BaseModel):
+    account_holder_name: str
+    account_number: str
+    address: Optional[str]
+    transactions: List[Dict[str, Any]]
+
+
+def extract_bank_statement_data(file_path: str):
+    if not os.path.exists(file_path):
+        return {"error": "File does not exist"}
+
+    file = client.files.upload(
+        file=file_path, config={'display_name': file_path.split('/')[-1].split('.')[0]}
+    )
+
+    prompt = """
+    Extract the following information from the bank statement and return it as structured JSON:
+    * account_holder_name
+    * account_number
+    * address (if present)
+    * All transaction table data from all pages, including headers.  Represent the tables as a list of dictionaries, where each dictionary represents a row.
+
+    Return the JSON in the following format:
+    ```json
+    {
+      "account_holder_name": "...",
+      "account_number": "...",
+      "address": "...",  // Optional
+      "transactions": [
+        {"column1": "value1", "column2": "value2", ...},  // Row 1
+        {"column1": "value3", "column2": "value4", ...},  // Row 2
+        ...
+      ]
+    }
+    ```
+    """
+
+    response = client.models.generate_content(
+        model=model_id,
+        contents=[prompt, file],
+        config={'response_mime_type': 'application/json'}
+    )
+    print(response.text) 
+    try:
+        extracted_data = json.loads(response.text)
+        # Validate with Pydantic (optional, but recommended)
+        bank_statement = BankStatement(**extracted_data)  # Raises ValidationError if invalid
+        return bank_statement.model_dump() # Return validated data as a dictionary
+    except (json.JSONDecodeError, pydantic.ValidationError) as e:
+        return {"error": f"Failed to parse or validate JSON response: {e}"}
+
+
+
+# Bank Statement Path (Update this to your actual file path)
+file_path = "ITR DOC\BANK STATEMENT\AXIS BANK STATEMENT.pdf"  # Or .png, .jpg, etc.
+
+# Extract Data
+extracted_data = extract_bank_statement_data(file_path)
+
+# Save Extracted Data as JSON
+output_json = "bank_statement_data.json"
+with open(output_json, "w") as json_file:
+    json.dump(extracted_data, json_file, indent=4)
+
+print(f"Extraction Complete! JSON Saved: {output_json}")
