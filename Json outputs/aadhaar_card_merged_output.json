@@ -1,0 +1,170 @@
+{
+    "document_type": "aadhaar",
+    "structured_data": {
+        "name": "Rahul Ramesh Gaikwad",
+        "father_name": "Ramesh Gaikwad",
+        "dob": "23/08/1995",
+        "gender": "MALE",
+        "aadhaar_number": "2058 6470 5393",
+        "address": null
+    },
+    "text_with_coordinates": [
+        {
+            "text": "भारत सरकार",
+            "bounding_box": {
+                "x1": 300,
+                "y1": 84,
+                "x2": 450,
+                "y2": 110
+            },
+            "score": 0.9417
+        },
+        {
+            "text": "GOVERNMENT OF INDIA",
+            "bounding_box": {
+                "x1": 300,
+                "y1": 110,
+                "x2": 500,
+                "y2": 135
+            },
+            "score": 0.7841
+        },
+        {
+            "text": "राहुल रमेश गायकवाड",
+            "bounding_box": {
+                "x1": 300,
+                "y1": 150,
+                "x2": 500,
+                "y2": 180
+            },
+            "score": 0.9116
+        },
+        {
+            "text": "Rahul Ramesh Gaikwad",
+            "bounding_box": {
+                "x1": 300,
+                "y1": 180,
+                "x2": 500,
+                "y2": 210
+            },
+            "score": 0.7007
+        },
+        {
+            "text": "जन्म तारीख/DOB: 23/08/1995",
+            "bounding_box": {
+                "x1": 300,
+                "y1": 210,
+                "x2": 550,
+                "y2": 240
+            },
+            "score": 0.8285
+        },
+        {
+            "text": "पुरुष / MALE",
+            "bounding_box": {
+                "x1": 300,
+                "y1": 240,
+                "x2": 420,
+                "y2": 270
+            },
+            "score": 0.9653
+        },
+        {
+            "text": "Mobile No: 9326117192",
+            "bounding_box": {
+                "x1": 300,
+                "y1": 270,
+                "x2": 500,
+                "y2": 300
+            },
+            "score": 0.737
+        },
+        {
+            "text": "2058 6470 5393",
+            "bounding_box": {
+                "x1": 300,
+                "y1": 320,
+                "x2": 500,
+                "y2": 360
+            },
+            "score": 0.7595
+        },
+        {
+            "text": "VID: 914642827569 5711",
+            "bounding_box": {
+                "x1": 300,
+                "y1": 360,
+                "x2": 500,
+                "y2": 390
+            },
+            "score": 0.8691
+        },
+        {
+            "text": "माझे आधार, माझी ओळख",
+            "bounding_box": {
+                "x1": 150,
+                "y1": 400,
+                "x2": 400,
+                "y2": 430
+            },
+            "score": 0.7612
+        },
+        {
+            "text": "Issue Date: 14/01/2021",
+            "bounding_box": {
+                "x1": 620,
+                "y1": 150,
+                "x2": 780,
+                "y2": 180
+            },
+            "score": 0.7516
+        }
+    ],
+    "key_value_pairs": [],
+    "named_entities": [
+        {
+            "entity": "राहुल रमेश गायकवाड",
+            "type": "PER",
+            "score": 0.7253,
+            "bounding_box": {
+                "x1": 300,
+                "y1": 150,
+                "x2": 500,
+                "y2": 180
+            }
+        },
+        {
+            "entity": "Rahul Ramesh Gaikwad",
+            "type": "PER",
+            "score": 0.9002,
+            "bounding_box": {
+                "x1": 300,
+                "y1": 180,
+                "x2": 500,
+                "y2": 210
+            }
+        },
+        {
+            "entity": "23/08/1995",
+            "type": "DATE",
+            "score": 0.9828,
+            "bounding_box": {
+                "x1": 300,
+                "y1": 210,
+                "x2": 550,
+                "y2": 240
+            }
+        },
+        {
+            "entity": "14/01/2021",
+            "type": "DATE",
+            "score": 0.7246,
+            "bounding_box": {
+                "x1": 620,
+                "y1": 150,
+                "x2": 780,
+                "y2": 180
+            }
+        }
+    ]
+}

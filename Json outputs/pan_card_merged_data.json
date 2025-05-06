@@ -1,0 +1,165 @@
+{
+    "document_type": "pan",
+    "name": "RAHUL RAMESH GAIKWAD",
+    "father_name": "RAMESH GAIKWAD",
+    "date_of_birth": "1995-08-23",
+    "pan_number": "BWAPG0983R",
+    "gender": null,
+    "text_with_coordinates": [
+        {
+            "text": "आयकर विभाग",
+            "bounding_box": {
+                "x1": 27,
+                "y1": 147,
+                "x2": 303,
+                "y2": 187
+            },
+            "score": 0.9
+        },
+        {
+            "text": "INCOME TAX DEPARTMENT",
+            "bounding_box": {
+                "x1": 29,
+                "y1": 188,
+                "x2": 332,
+                "y2": 216
+            },
+            "score": 0.9
+        },
+        {
+            "text": "सत्यमेव जयते",
+            "bounding_box": {
+                "x1": 340,
+                "y1": 185,
+                "x2": 388,
+                "y2": 212
+            },
+            "score": 0.8
+        },
+        {
+            "text": "RAHUL RAMESH GAIKWAD",
+            "bounding_box": {
+                "x1": 29,
+                "y1": 258,
+                "x2": 431,
+                "y2": 296
+            },
+            "score": 0.9
+        },
+        {
+            "text": "RAMESH GAIKWAD",
+            "bounding_box": {
+                "x1": 31,
+                "y1": 313,
+                "x2": 312,
+                "y2": 346
+            },
+            "score": 0.9
+        },
+        {
+            "text": "23/08/1995",
+            "bounding_box": {
+                "x1": 31,
+                "y1": 366,
+                "x2": 176,
+                "y2": 396
+            },
+            "score": 0.9
+        },
+        {
+            "text": "Permanent Account Number",
+            "bounding_box": {
+                "x1": 31,
+                "y1": 402,
+                "x2": 328,
+                "y2": 433
+            },
+            "score": 0.9
+        },
+        {
+            "text": "BWAPG0983R",
+            "bounding_box": {
+                "x1": 32,
+                "y1": 444,
+                "x2": 227,
+                "y2": 475
+            },
+            "score": 0.9
+        },
+        {
+            "text": "Signature",
+            "bounding_box": {
+                "x1": 32,
+                "y1": 593,
+                "x2": 126,
+                "y2": 619
+            },
+            "score": 0.8
+        },
+        {
+            "text": "भारत सरकार",
+            "bounding_box": {
+                "x1": 570,
+                "y1": 147,
+                "x2": 752,
+                "y2": 185
+            },
+            "score": 0.9
+        },
+        {
+            "text": "GOVT. OF INDIA",
+            "bounding_box": {
+                "x1": 572,
+                "y1": 186,
+                "x2": 717,
+                "y2": 215
+            },
+            "score": 0.9
+        },
+        {
+            "text": "भारत",
+            "bounding_box": {
+                "x1": 669,
+                "y1": 367,
+                "x2": 700,
+                "y2": 391
+            },
+            "score": 0.7
+        },
+        {
+            "text": "28062016",
+            "bounding_box": {
+                "x1": 877,
+                "y1": 660,
+                "x2": 939,
+                "y2": 687
+            },
+            "score": 0.9
+        }
+    ],
+    "key_value_pairs": [],
+    "named_entities": [
+        {
+            "entity": "RAHUL RAMESH GAIKWAD",
+            "type": "PER",
+            "score": 0.7729,
+            "bounding_box": {
+                "x1": 29,
+                "y1": 258,
+                "x2": 431,
+                "y2": 296
+            }
+        },
+        {
+            "entity": "RAMESH GAIKWAD",
+            "type": "PER",
+            "score": 0.7689,
+            "bounding_box": {
+                "x1": 31,
+                "y1": 313,
+                "x2": 312,
+                "y2": 346
+            }
+        }
+    ]
+}

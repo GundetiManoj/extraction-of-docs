@@ -1,0 +1,140 @@
+{
+    "document_type": "aadhaar",
+    "text_with_coordinates": [
+        {
+            "text": "भारत सरकार",
+            "bounding_box": {
+                "x1": 411,
+                "y1": 35,
+                "x2": 515,
+                "y2": 60
+            },
+            "score": 0.95
+        },
+        {
+            "text": "GOVERNMENT OF INDIA",
+            "bounding_box": {
+                "x1": 411,
+                "y1": 62,
+                "x2": 599,
+                "y2": 87
+            },
+            "score": 0.96
+        },
+        {
+            "text": "राहुल रमेश गायकवाड",
+            "bounding_box": {
+                "x1": 306,
+                "y1": 117,
+                "x2": 488,
+                "y2": 147
+            },
+            "score": 0.92
+        },
+        {
+            "text": "Rahul Ramesh Gaikwad",
+            "bounding_box": {
+                "x1": 307,
+                "y1": 146,
+                "x2": 489,
+                "y2": 176
+            },
+            "score": 0.98
+        },
+        {
+            "text": "जन्म तारीख/DOB: 23/08/1995",
+            "bounding_box": {
+                "x1": 307,
+                "y1": 178,
+                "x2": 530,
+                "y2": 206
+            },
+            "score": 0.97
+        },
+        {
+            "text": "पुरुष / MALE",
+            "bounding_box": {
+                "x1": 307,
+                "y1": 209,
+                "x2": 393,
+                "y2": 235
+            },
+            "score": 0.95
+        },
+        {
+            "text": "Mobile No: 9326117192",
+            "bounding_box": {
+                "x1": 307,
+                "y1": 241,
+                "x2": 508,
+                "y2": 267
+            },
+            "score": 0.98
+        },
+        {
+            "text": "2058 6470 5393",
+            "bounding_box": {
+                "x1": 308,
+                "y1": 281,
+                "x2": 511,
+                "y2": 321
+            },
+            "score": 0.99
+        },
+        {
+            "text": "VID: 914642827569 5711",
+            "bounding_box": {
+                "x1": 308,
+                "y1": 322,
+                "x2": 528,
+                "y2": 346
+            },
+            "score": 0.98
+        },
+        {
+            "text": "माझे आधार, माझी ओळख",
+            "bounding_box": {
+                "x1": 28,
+                "y1": 377,
+                "x2": 329,
+                "y2": 413
+            },
+            "score": 0.93
+        },
+        {
+            "text": "Issue Date: 14/01/2021",
+            "bounding_box": {
+                "x1": 810,
+                "y1": 146,
+                "x2": 955,
+                "y2": 266
+            },
+            "score": 0.97
+        }
+    ],
+    "key_value_pairs": [],
+    "named_entities": [
+        {
+            "entity": "राहुल रमेश गायकवाड",
+            "type": "PER",
+            "score": 0.96,
+            "bounding_box": {
+                "x1": 306,
+                "y1": 117,
+                "x2": 488,
+                "y2": 147
+            }
+        },
+        {
+            "entity": "Rahul Ramesh Gaikwad",
+            "type": "PER",
+            "score": 0.98,
+            "bounding_box": {
+                "x1": 307,
+                "y1": 146,
+                "x2": 489,
+                "y2": 176
+            }
+        }
+    ]
+}

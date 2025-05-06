@@ -108,7 +108,6 @@ def extract_contributions(pdf_path: str) -> List[Dict[str, str]]:
                 # Skip if not a valid contribution row
                 if not is_valid_contribution(row):
                     continue
-                
                 # Ensure row has enough columns
                 if len(row) < 10:
                     row += [""] * (10 - len(row))
@@ -129,16 +128,16 @@ def extract_contributions(pdf_path: str) -> List[Dict[str, str]]:
 # ──────── Main Extraction ────────
 def extract_epf_passbook(pdf_path: str, output_json_path: str):
     if not os.path.exists(pdf_path):
-        print("❌ File not found.")
+        print("File not found.")
         return
 
     with pdfplumber.open(pdf_path) as pdf:
         all_text = "\n".join([page.extract_text() for page in pdf.pages if page.extract_text()])
 
-    print("🔍 Extracting personal info...")
+    print("Extracting personal info...")
     personal_details = extract_personal_details(all_text)
 
-    print("📊 Extracting contributions...")
+    print("Extracting contributions...")
     contribution_data = extract_contributions(pdf_path)
 
     # Clean any remaining invalid entries
@@ -153,9 +152,9 @@ def extract_epf_passbook(pdf_path: str, output_json_path: str):
         validated = EPFPassbookData(**data)
         with open(output_json_path, "w", encoding="utf-8") as f:
             json.dump(validated.model_dump(), f, indent=4)
-        print(f"✅ Extraction complete. Data saved to {output_json_path}")
+        print(f" Extraction complete. Data saved to {output_json_path}")
     except ValidationError as e:
-        print("❌ Validation Error:", e)
+        print(" Validation Error:", e)
 
 # ──────── Run ────────
 if __name__ == "__main__":
