@@ -46,7 +46,6 @@ class TextSpan(BaseModel):
 
 class NamedEntity(BaseModel):
     text: str
-    label: str
     confidence: float
 
 class BankStatementSchema(BaseModel):
@@ -79,7 +78,7 @@ def extract_text_with_coordinates(pdf_path: str) -> List[TextSpan]:
 def extract_named_entities(text: str) -> List[NamedEntity]:
     nlp = spacy.load("en_core_web_sm")
     doc = nlp(text)
-    return [NamedEntity(text=ent.text, label=ent.label_, confidence=1.0) for ent in doc.ents]
+    return [NamedEntity(text=ent.text, confidence=ent.confidence) for ent in doc.ents]
 
 def extract_with_docai(pdf_path: str):
     credentials = service_account.Credentials.from_service_account_file(CREDENTIAL_PATH)
@@ -212,30 +211,30 @@ def extract_personal_details_with_gemini(pdf_path: str) -> dict:
         elif isinstance(result, dict):
             return result
         else:
-            print("⚠️ Unexpected format for personal info. Expected dict, got:", type(result))
+            print(" Unexpected format for personal info. Expected dict, got:", type(result))
             return {}
             
     except Exception as e:
-        print(f"❌ Error extracting personal details with Gemini: {e}")
+        print(f" Error extracting personal details with Gemini: {e}")
         return {}
 
 # ─── Main Orchestrator ───
 def extract_bank_statement(pdf_path: str, output_json_path: str):
     if not os.path.exists(pdf_path):
-        print("❌ File not found")
+        print(" File not found")
         return
 
-    print("📍 Extracting text with coordinates...")
+    print(" Extracting text with coordinates...")
     text_coords = extract_text_with_coordinates(pdf_path)
     full_text = " ".join([t.text for t in text_coords])
 
-    print("🧠 Named Entities...")
+    print(" Named Entities...")
     named_ents = extract_named_entities(full_text)
 
-    print("🔐 Document AI (KVs + Tables)...")
+    print(" Document AI (KVs + Tables)...")
     kvs, table_cells, personal_details_docai = extract_with_docai(pdf_path)
 
-    print("🧑 Extracting personal details with Gemini...")
+    print(" Extracting personal details with Gemini...")
     gemini_details = extract_personal_details_with_gemini(pdf_path)
     
     # Convert Gemini details to PersonalDetail objects
@@ -259,7 +258,7 @@ def extract_bank_statement(pdf_path: str, output_json_path: str):
         if detail.type not in gemini_types:
             personal_details.append(detail)
 
-    print("📊 Tables (backup via pdfplumber)...")
+    print(" Tables ..")
     transactions = extract_tables_with_pdfplumber(pdf_path)
 
     final_data = BankStatementSchema(
@@ -276,7 +275,7 @@ def extract_bank_statement(pdf_path: str, output_json_path: str):
 
     with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(final_data.dict(), f, indent=4)
-    print(f"✅ Extraction saved to {output_json_path}")
+    print(f" Extraction saved to {output_json_path}")
 
 # ─── Entry Point ───
 if __name__ == "__main__":

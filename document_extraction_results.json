@@ -1,0 +1,232 @@
+{
+  "personalDetails": {
+    "Full name": "Mr. Clement Tester",
+    "Address": "Select street\nTester, Any Street, Any Town, AN1 TWN, TR9 0TW",
+    "Account Number": "111900238",
+    "Sort Code": "14-00-39",
+    "BIC": "RBINGB30",
+    "IBAN": "GB13RBOS 1202 0900 3118 67"
+  },
+  "tables": [
+    {
+      "headers": [
+        "Branch Details",
+        "Your Details",
+        "Period",
+        "28 Oct 2019 to 21 Dec 2019"
+      ],
+      "rows": [
+        [
+          "Any Branch",
+          "Mr. Clement",
+          "Previous Balance",
+          "£1800.90"
+        ],
+        [
+          "Any Street",
+          "Select street",
+          "Paid out",
+          "£2,366.10"
+        ],
+        [
+          "Any Town",
+          "Tester",
+          "Paid in",
+          "£2,803.40"
+        ],
+        [
+          "AN1 TWN",
+          "TR9 0TW",
+          "New Balance",
+          "£600.22"
+        ]
+      ]
+    },
+    {
+      "headers": [
+        "Date",
+        "Type",
+        "Description",
+        "Paid in",
+        "Paid out",
+        "Balance"
+      ],
+      "rows": [
+        [
+          "Bright forward",
+          null,
+          null,
+          null,
+          null,
+          "2004.90"
+        ],
+        [
+          "22 Oct 2019",
+          "Automated pay in",
+          "Various Payment",
+          null,
+          "190.43",
+          "1803.9"
+        ],
+        [
+          "22 Oct 2019",
+          "Digital banking",
+          "Amazon",
+          null,
+          "140.00",
+          "1613.5"
+        ],
+        [
+          "22 Oct 2019",
+          "Faster payment",
+          "Business Loan",
+          "14200.00",
+          null,
+          "1473.5"
+        ],
+        [
+          "22 Oct 2019",
+          "BACS",
+          "Amazon",
+          null,
+          "50.90",
+          "1341.2"
+        ],
+        [
+          "22 Oct 2019",
+          "Faster payment",
+          "Amazon",
+          null,
+          "42.23",
+          "825.98"
+        ],
+        [
+          "23 Oct 2019",
+          "Faster payment",
+          "Business Loan",
+          "13000.00",
+          null,
+          "20745.98"
+        ],
+        [
+          "23 Oct 2019",
+          "BACS",
+          "Interest Paid",
+          "4500",
+          null,
+          "118284.43"
+        ],
+        [
+          "23 Oct 2019",
+          "BACS",
+          "Various Payment",
+          null,
+          "177.87",
+          "18034.43"
+        ],
+        [
+          "23 Oct 2019",
+          "BACS",
+          "Various Payment",
+          null,
+          "543.09",
+          "17857.21"
+        ],
+        [
+          "24 Oct 2019",
+          "Faster payment",
+          "DVLA",
+          null,
+          "430.00",
+          "177735.21"
+        ],
+        [
+          "1 Nov 2019",
+          "CHQ",
+          "Cheque 2203218",
+          null,
+          "1,200.00",
+          "16355.21"
+        ],
+        [
+          "1 Nov 2019",
+          "CHQ",
+          "Cheque 2209200",
+          null,
+          "2470.00",
+          "14072.54"
+        ],
+        [
+          "1 Nov 2019",
+          "Int. Bank",
+          "DVLA",
+          null,
+          "609.20",
+          "12309.00"
+        ],
+        [
+          "1 Nov 2019",
+          "Automated pay in",
+          "Petrol",
+          null,
+          "23.30",
+          "9035.90"
+        ],
+        [
+          "12 Dec 2019",
+          "Automated pay in",
+          "Bright forward",
+          null,
+          "780.00",
+          "6780.2"
+        ],
+        [
+          "12 Dec 2019",
+          "CHQ",
+          "Cheque 2209360",
+          null,
+          "3450.00",
+          "4009.12"
+        ],
+        [
+          "12 Dec 2019",
+          "BACS",
+          "MRC",
+          null,
+          "560.00",
+          "3548.14"
+        ],
+        [
+          "12 Dec 2019",
+          "DD",
+          "Trading Co",
+          null,
+          "34.00",
+          "2548.14"
+        ],
+        [
+          null,
+          null,
+          "Business received forward",
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  ],
+  "keyValuePairs": {
+    "Account Number": "111900238",
+    "Sort Code": "14-00-39",
+    "BIC": "RBINGB3O",
+    "IBAN": "GB13RBOS 1202 0900 3118 67",
+    "Branch Details": "Any Branch\nAny Street\nAny Town\nAN1 TWN",
+    "Your Details": "Mr. Clement\nSelect street\nTester\nTR9 0TW",
+    "Period": "28 Oct 2019 to 21 Dec 2019",
+    "Previous Balance": "£1800.90",
+    "Paid out": "£2,366.10",
+    "Paid in": "£2,803.40",
+    "New Balance": "£600.22"
+  },
+  "namedEntities": []
+}

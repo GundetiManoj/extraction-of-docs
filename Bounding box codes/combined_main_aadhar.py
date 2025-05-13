@@ -145,6 +145,6 @@ if os.path.exists(file_path):
     with open(output_json, "w", encoding="utf-8") as f:
         json.dump(merged_result, f, indent=4, ensure_ascii=False)
 
-    print(f"✅ Extraction and merge complete. Output saved to: {output_json}")
+    print(f"Extraction and merge complete. Output saved to: {output_json}")
 else:
-    print("❌ File not found. Check the path and try again.")
+    print(" File not found. Check the path and try again.")

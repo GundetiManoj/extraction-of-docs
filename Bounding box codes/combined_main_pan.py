@@ -157,7 +157,7 @@ file_path = r"ITR DOC\BASIC\PAN.pdf"
 
 print(f"Processing: {file_path}")
 if not os.path.exists(file_path):
-    print("⚠️ File not found. Available files in current directory:", os.listdir())
+    print(" File not found. Available files in current directory:", os.listdir())
 else:
     result = extract_pan_data(file_path)
 
@@ -165,4 +165,4 @@ else:
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=4, ensure_ascii=False)
 
-    print(f"✅ PAN Card Data Extracted and Saved to: {output_file}")
+    print(f" PAN Card Data Extracted and Saved to: {output_file}")
