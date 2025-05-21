@@ -2,7 +2,7 @@ import json
 import fitz  # PyMuPDF
 from PIL import Image, ImageDraw
 import os
-def draw_boxes_on_pdf(input_pdf_path, enriched_json_path, output_folder="form16_pages"):
+def draw_boxes_on_pdf(input_pdf_path, enriched_json_path, output_folder="passbook_pages"):
     # Load data
     with open(enriched_json_path, "r") as f:
         data = json.load(f)
@@ -45,6 +45,6 @@ def draw_boxes_on_pdf(input_pdf_path, enriched_json_path, output_folder="form16_
 
 
 if __name__ == "__main__":
-    input_pdf = "ITR DOC\EMPLOYEE INFO\FORM 16.pdf"
+    input_pdf = "ITR DOC\EMPLOYEE INFO\PF PASSBOOK.pdf"
     enriched_json = "enriched_output.json"
     draw_boxes_on_pdf(input_pdf, enriched_json)
