@@ -285,7 +285,7 @@ def extract_bank_statement(pdf_path: str, output_json_path: str):
 # Entry Point
 if __name__ == "__main__":
     extract_bank_statement(
-        pdf_path="ITR DOC\BANK STATEMENT\BANK.pdf",
+        pdf_path="ITR DOC\BANK STATEMENT\AXIS BANK STATEMENT.pdf",
         output_json_path="experiment_extracted_data2.json"
     )
 # ─── END ───   
