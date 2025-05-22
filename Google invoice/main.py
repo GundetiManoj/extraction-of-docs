@@ -162,8 +162,8 @@ def save_output(result, out_path):
 
 # MAIN
 if __name__ == "__main__":
-    input_path = r"ITR DOC\EMPLOYEE INFO\PF PASSBOOK.pdf"
-    output_path = "output_result.json"
+    input_path = r"ITR DOC\HOME LOAN\StatementOfAccount_Home Loan Cover.pdf"
+    output_path = "statementofA.json"
     result = analyze_invoice(input_path)
     save_output(result, output_path)
     print(f"✅ Output saved to: {output_path}")

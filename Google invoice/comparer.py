@@ -91,8 +91,8 @@ def enrich_fields(data):
 
 
 if __name__ == "__main__":
-    input_path = "output_result.json"
-    output_path = "enriched_output.json"
+    input_path = "statementofA.json"
+    output_path = "enriched_statementofA.json"
     with open(input_path, "r") as f:
         data = json.load(f)
 
