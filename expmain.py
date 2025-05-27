@@ -2,16 +2,13 @@ from google.cloud import documentai_v1 as documentai
 import os
 import json
 import google.generativeai as genai
-
 # Environment setup
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "vision-454216-e49450484a5a.json"
 PROJECT_ID = "vision-454216"
 LOCATION = "us"
 PROCESSOR_ID = "e8d7e54d9f2335a3"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-
 genai.configure(api_key=GEMINI_API_KEY)
-
 def process_document(file_path: str, mime_type: str = "application/pdf"):
     client = documentai.DocumentProcessorServiceClient()
     name = f"projects/{PROJECT_ID}/locations/{LOCATION}/processors/{PROCESSOR_ID}"
@@ -21,7 +18,6 @@ def process_document(file_path: str, mime_type: str = "application/pdf"):
     request = documentai.ProcessRequest(name=name, raw_document=raw_document)
     result = client.process_document(request=request)
     return result.document
-
 def get_normalized_bbox(poly):
     if not poly.normalized_vertices:
         return {}
@@ -32,7 +28,6 @@ def get_normalized_bbox(poly):
         "x3": round(verts[2].x, 4), "y3": round(verts[2].y, 4),
         "x4": round(verts[3].x, 4), "y4": round(verts[3].y, 4)
     }
-
 def get_text_from_anchor(text_anchor, full_text):
     segments = text_anchor.text_segments
     return "".join([full_text[seg.start_index:seg.end_index] for seg in segments]).strip()
@@ -40,8 +35,7 @@ def get_text_from_anchor(text_anchor, full_text):
 def get_layout_info(text_anchor, doc):
     """Get page number and bounding box from text anchor."""
     if not text_anchor.text_segments:
-        return {"page_number": None, "bounding_box": {}}
-    
+        return {"page_number": None, "bounding_box": {}}    
     for page in doc.pages:
         for token in page.tokens:
             if token.layout.text_anchor.text_segments:
@@ -57,7 +51,6 @@ def get_layout_info(text_anchor, doc):
 def extract_key_value_pairs(doc):
     kv_pairs = []
     full_text = doc.text
-
     for entity in doc.entities:
         key = entity.type_
         value_text = get_text_from_anchor(entity.text_anchor, full_text)
@@ -68,7 +61,6 @@ def extract_key_value_pairs(doc):
             "page_number": info["page_number"],
             "bounding_box": info["bounding_box"]
         })
-
         # Nested properties (e.g., line item fields)
         for prop in entity.properties:
             sub_key = f"{key}.{prop.type_}"
@@ -86,14 +78,11 @@ def extract_key_value_pairs(doc):
 def extract_named_entities(doc):
     named_entities = []
     full_text = doc.text
-
     for entity in doc.entities:
         if not entity.text_anchor.text_segments:
             continue  # Skip if no text segments
-
         text = get_text_from_anchor(entity.text_anchor, full_text)
         layout_info = get_layout_info(entity.text_anchor, doc)
-
         named_entities.append({
             "type": entity.type_,
             "text": text,
@@ -101,9 +90,7 @@ def extract_named_entities(doc):
             "page_number": layout_info.get("page_number", -1),
             "bounding_box": layout_info.get("bounding_box", [])
         })
-
     return named_entities
-
 
 def extract_text_with_coords(document):
     result = []
@@ -147,15 +134,11 @@ def call_gemini_for_extraction(text):
 Extract:
 - Personal details (name, phone, email, GSTIN, etc.)
 - Named entities (person, org, date, money, location)
-- Tables
-
 Format:
 {{
   "personal_details": {{ }},
-  "named_entities": [ ],
-  "tables": [ ]
+  "named_entities": [ ]
 }}
-
 Text:
 {text}
     """
