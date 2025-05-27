@@ -3,13 +3,12 @@ import os
 import json
 import google.generativeai as genai
 
-# Set credentials
+# Environment setup
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "vision-454216-e49450484a5a.json"
-
 PROJECT_ID = "vision-454216"
 LOCATION = "us"
-PROCESSOR_ID = "a4be4a798f4fae68"
-GEMINI_API_KEY = "AIzaSyAxv3tpH8ZGdLMe6n8kseFDl2QxSGtan9M"
+PROCESSOR_ID = "e8d7e54d9f2335a3"
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 genai.configure(api_key=GEMINI_API_KEY)
 
@@ -34,6 +33,78 @@ def get_normalized_bbox(poly):
         "x4": round(verts[3].x, 4), "y4": round(verts[3].y, 4)
     }
 
+def get_text_from_anchor(text_anchor, full_text):
+    segments = text_anchor.text_segments
+    return "".join([full_text[seg.start_index:seg.end_index] for seg in segments]).strip()
+
+def get_layout_info(text_anchor, doc):
+    """Get page number and bounding box from text anchor."""
+    if not text_anchor.text_segments:
+        return {"page_number": None, "bounding_box": {}}
+    
+    for page in doc.pages:
+        for token in page.tokens:
+            if token.layout.text_anchor.text_segments:
+                token_seg = token.layout.text_anchor.text_segments[0]
+                anchor_seg = text_anchor.text_segments[0]
+                if token_seg.start_index == anchor_seg.start_index:
+                    return {
+                        "page_number": page.page_number,
+                        "bounding_box": get_normalized_bbox(token.layout.bounding_poly)
+                    }
+    return {"page_number": None, "bounding_box": {}}
+
+def extract_key_value_pairs(doc):
+    kv_pairs = []
+    full_text = doc.text
+
+    for entity in doc.entities:
+        key = entity.type_
+        value_text = get_text_from_anchor(entity.text_anchor, full_text)
+        info = get_layout_info(entity.text_anchor, doc)
+        kv_pairs.append({
+            "field": key,
+            "value": value_text,
+            "page_number": info["page_number"],
+            "bounding_box": info["bounding_box"]
+        })
+
+        # Nested properties (e.g., line item fields)
+        for prop in entity.properties:
+            sub_key = f"{key}.{prop.type_}"
+            sub_val = get_text_from_anchor(prop.text_anchor, full_text)
+            sub_info = get_layout_info(prop.text_anchor, doc)
+            kv_pairs.append({
+                "field": sub_key,
+                "value": sub_val,
+                "page_number": sub_info["page_number"],
+                "bounding_box": sub_info["bounding_box"]
+            })
+
+    return kv_pairs
+
+def extract_named_entities(doc):
+    named_entities = []
+    full_text = doc.text
+
+    for entity in doc.entities:
+        if not entity.text_anchor.text_segments:
+            continue  # Skip if no text segments
+
+        text = get_text_from_anchor(entity.text_anchor, full_text)
+        layout_info = get_layout_info(entity.text_anchor, doc)
+
+        named_entities.append({
+            "type": entity.type_,
+            "text": text,
+            "confidence": entity.confidence,
+            "page_number": layout_info.get("page_number", -1),
+            "bounding_box": layout_info.get("bounding_box", [])
+        })
+
+    return named_entities
+
+
 def extract_text_with_coords(document):
     result = []
     for page_index, page in enumerate(document.pages):
@@ -47,73 +118,45 @@ def extract_text_with_coords(document):
                 "text": text.strip(),
                 "bounding_box": get_normalized_bbox(token.layout.bounding_poly),
                 "confidence": token.layout.confidence,
-                "page_number": page_index + 1
+                "page_number": page.page_number
             })
     return result
 
-def extract_key_value_pairs(document):
-    kvs = []
-    for entity in document.entities:
-        if not entity.page_anchor.page_refs:
-            continue
-        for ref in entity.page_anchor.page_refs:
-            if ref.bounding_poly:
-                bbox = get_normalized_bbox(ref.bounding_poly)
-                kvs.append({
-                    "key": entity.type_,
-                    "value": entity.mention_text,
-                    "confidence": entity.confidence,
-                    "bounding_box": bbox,
-                    "page_number": ref.page + 1
-                })
-    return kvs
+def get_text(layout, full_text):
+    if not layout.text_anchor.text_segments:
+        return ""
+    return "".join([full_text[seg.start_index:seg.end_index] for seg in layout.text_anchor.text_segments]).strip()
 
-def extract_tables(document):
+def extract_tables(doc):
     tables = []
-    for page_index, page in enumerate(document.pages):
+    for page in doc.pages:
         for table in page.tables:
-            structured_table = []
-            for row in table.header_rows + table.body_rows:
+            for row in list(table.header_rows) + list(table.body_rows):
                 row_data = []
                 for cell in row.cells:
                     row_data.append({
-                        "text": cell.layout.text_anchor.content.strip(),
-                        "bounding_box": get_normalized_bbox(cell.layout.bounding_poly),
-                        "confidence": cell.layout.confidence
+                        "text": get_text(cell.layout, doc.text),
+                        "page_number": page.page_number,
+                        "bounding_box": get_normalized_bbox(cell.layout.bounding_poly)
                     })
-                structured_table.append(row_data)
-            tables.append(structured_table)
+                tables.append(row_data)
     return tables
-
-def extract_ner(document):
-    ner_data = []
-    for entity in document.entities:
-        for ref in entity.page_anchor.page_refs:
-            if ref.bounding_poly:
-                ner_data.append({
-                    "text": entity.mention_text,
-                    "type": entity.type_,
-                    "confidence": entity.confidence,
-                    "bounding_box": get_normalized_bbox(ref.bounding_poly),
-                    "page_number": ref.page + 1
-                })
-    return ner_data
 
 def call_gemini_for_extraction(text):
     prompt = f"""
-Extract the following from this invoice:
-- Personal details (Name, Address, Phone, Email, GSTIN, etc.)
-- Named entities (person, organization, location, dates, money, etc.)
-- All tables (structured in JSON)
+Extract:
+- Personal details (name, phone, email, GSTIN, etc.)
+- Named entities (person, org, date, money, location)
+- Tables
 
-Output JSON format:
+Format:
 {{
   "personal_details": {{ }},
   "named_entities": [ ],
   "tables": [ ]
 }}
 
-Text Content:
+Text:
 {text}
     """
     model = genai.GenerativeModel("gemini-1.5-flash")
@@ -141,13 +184,14 @@ def analyze_invoice(file_path, mime_type="application/pdf"):
 
     tables = extract_tables(doc)
     if not tables:
+        print("[INFO] No tables found by Document AI, using Gemini output.")
         tables = gemini_data.get("tables", [])
 
     final_output = {
         "text_with_coords": text_coords,
         "key_value_pairs": kv_pairs,
         "personal_details": gemini_data.get("personal_details", {}),
-        "named_entities": gemini_data.get("named_entities", []),
+        "named_entities": extract_named_entities(doc),
         "tables": tables
     }
 
@@ -163,7 +207,7 @@ def save_output(result, out_path):
 # MAIN
 if __name__ == "__main__":
     input_path = r"ITR DOC\BANK STATEMENT\AXIS BANK STATEMENT.pdf"
-    output_path = "axisbank.json"
+    output_path = "axisbank_with_coords.json"
     result = analyze_invoice(input_path)
     save_output(result, output_path)
     print(f"✅ Output saved to: {output_path}")
