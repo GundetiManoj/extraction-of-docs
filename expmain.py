@@ -9,6 +9,7 @@ LOCATION = "us"
 PROCESSOR_ID = "e8d7e54d9f2335a3"
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=GEMINI_API_KEY)
+
 def process_document(file_path: str, mime_type: str = "application/pdf"):
     client = documentai.DocumentProcessorServiceClient()
     name = f"projects/{PROJECT_ID}/locations/{LOCATION}/processors/{PROCESSOR_ID}"
@@ -153,20 +154,40 @@ def extract_tables(doc):
 
 def call_gemini_for_extraction(text):
     prompt = f"""
-Extract:
-- Personal details (name, phone, email, GSTIN, etc.)
-- Named entities (person, org, date, money, location)
-Format:
+You are a document understanding model. Extract only **personal details** from the given text. These may include:
+
+- Full name
+- Phone number
+- Email
+- PAN
+- GSTIN
+- Address
+-other
+
+❗️Do NOT include tables or named entities.
+
+Return only a JSON object in this exact format:
+
+```json
 {{
-  "personal_details": {{ }},
-  "named_entities": [ ]
+  "personal_details": {{
+    "name": "Full Name",
+    "phone": "",
+    "email": "example@example.com",
+    "PAN": "",
+    "GSTIN": " ",
+    "address": "Full Address Here"
+    etc.
+  }}
 }}
+If a field is not present, omit it from the JSON.
+
 Text:
 {text}
-    """
+"""
+
     model = genai.GenerativeModel("gemini-1.5-flash")
     response = model.generate_content(prompt)
-
     try:
         cleaned = response.text.strip()
         if cleaned.startswith("```") and cleaned.endswith("```"):
@@ -175,33 +196,31 @@ Text:
     except Exception as e:
         print("[Gemini ERROR]", e)
         print("Raw Gemini Response:", response.text)
-        return {"personal_details": {}, "named_entities": [], "tables": []}
+        return {"personal_details": {}}
 
 def analyze_invoice(file_path, mime_type="application/pdf"):
     doc = process_document(file_path, mime_type)
     text_coords = extract_text_with_coords(doc)
     all_text = " ".join([t["text"] for t in text_coords])
-    
     gemini_data = call_gemini_for_extraction(all_text)
+    personal_details = gemini_data.get("personal_details", {})
     kv_pairs = extract_key_value_pairs(doc)
     if not kv_pairs:
-        print("[INFO] No KV pairs from Document AI")
-
-    tables = extract_tables(doc)
+        print("[INFO] No KV pairs found from Document AI.")
+    # named_entities = extract_named_entities(doc)
+    tables=extract_tables(doc)
     if not tables:
         print("[INFO] No tables found by Document AI, using Gemini output.")
-        tables = gemini_data.get("tables", [])
-
     final_output = {
+        "personal_details": gemini_data.get("personal_details", {}),
         "text_with_coords": text_coords,
         "key_value_pairs": kv_pairs,
-        "personal_details": gemini_data.get("personal_details", {}),
         "named_entities": extract_named_entities(doc),
         "tables": tables
     }
 
-    with open("invoice_output.json", "w") as f:
-        json.dump(final_output, f, indent=2)
+    # with open("invoice_output.json", "w") as f:
+    #     json.dump(final_output, f, indent=2)
 
     return final_output
 
@@ -211,8 +230,8 @@ def save_output(result, out_path):
 
 # MAIN
 if __name__ == "__main__":
-    input_path = r"ITR DOC\BANK STATEMENT\AXIS BANK STATEMENT.pdf"
-    output_path = "axisbank_with_coords.json"
+    input_path = r"ITR DOC\BASIC\AADHAR CARD.pdf"
+    output_path = "aadhar_with_coords.json"
     result = analyze_invoice(input_path)
     save_output(result, output_path)
     print(f"✅ Output saved to: {output_path}")
