@@ -28,6 +28,20 @@ def get_normalized_bbox(poly):
         "x3": round(verts[2].x, 4), "y3": round(verts[2].y, 4),
         "x4": round(verts[3].x, 4), "y4": round(verts[3].y, 4)
     }
+def get_text(layout_or_anchor, full_text):
+    if hasattr(layout_or_anchor, "text_anchor"):
+        anchor = layout_or_anchor.text_anchor
+    else:
+        anchor = layout_or_anchor
+
+    if not anchor.text_segments:
+        return ""
+
+    return "".join([
+        full_text[seg.start_index:seg.end_index]
+        for seg in anchor.text_segments
+    ]).strip()
+
 def get_text_from_anchor(text_anchor, full_text):
     segments = text_anchor.text_segments
     return "".join([full_text[seg.start_index:seg.end_index] for seg in segments]).strip()
@@ -47,8 +61,34 @@ def get_layout_info(text_anchor, doc):
                         "bounding_box": get_normalized_bbox(token.layout.bounding_poly)
                     }
     return {"page_number": None, "bounding_box": {}}
-
 def extract_key_value_pairs(doc):
+    kv_pairs = []
+    full_text = doc.text
+
+    for page in doc.pages:
+        for field in page.form_fields:
+            # Extract key and value text
+            key_text = get_text(field.field_name, full_text)
+            value_text = get_text(field.field_value, full_text)
+
+            # Extract bounding boxes
+            key_bbox = get_normalized_bbox(field.field_name.bounding_poly)
+            value_bbox = get_normalized_bbox(field.field_value.bounding_poly)
+
+            kv_pairs.append({
+                "field": key_text,
+                "value": value_text,
+                "key_confidence": field.field_name.confidence,
+                "value_confidence": field.field_value.confidence,
+                "page_number": page.page_number,
+                "key_bounding_box": key_bbox,
+                "value_bounding_box": value_bbox,
+            })
+
+    return kv_pairs
+
+
+def extract_named_entities(doc):
     kv_pairs = []
     full_text = doc.text
     for entity in doc.entities:
@@ -74,24 +114,6 @@ def extract_key_value_pairs(doc):
             })
 
     return kv_pairs
-
-def extract_named_entities(doc):
-    named_entities = []
-    full_text = doc.text
-    for entity in doc.entities:
-        if not entity.text_anchor.text_segments:
-            continue  # Skip if no text segments
-        text = get_text_from_anchor(entity.text_anchor, full_text)
-        layout_info = get_layout_info(entity.text_anchor, doc)
-        named_entities.append({
-            "type": entity.type_,
-            "text": text,
-            "confidence": entity.confidence,
-            "page_number": layout_info.get("page_number", -1),
-            "bounding_box": layout_info.get("bounding_box", [])
-        })
-    return named_entities
-
 def extract_text_with_coords(document):
     result = []
     for page_index, page in enumerate(document.pages):
