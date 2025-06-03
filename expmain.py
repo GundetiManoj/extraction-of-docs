@@ -99,6 +99,7 @@ def extract_named_entities(doc):
         kv_pairs.append({
             "field": key,
             "value": value_text,
+            "confidence": entity.confidence,
             "page_number": info["page_number"],
             "bounding_box": info["bounding_box"]
         })
@@ -111,7 +112,8 @@ def extract_named_entities(doc):
                 "field": sub_key,
                 "value": sub_val,
                 "page_number": sub_info["page_number"],
-                "bounding_box": sub_info["bounding_box"]
+                "bounding_box": sub_info["bounding_box"],
+                "confidence": prop.confidence
             })
 
     return kv_pairs
@@ -147,7 +149,8 @@ def extract_tables(doc):
                     row_data.append({
                         "text": get_text(cell.layout, doc.text),
                         "page_number": page.page_number,
-                        "bounding_box": get_normalized_bbox(cell.layout.bounding_poly)
+                        "bounding_box": get_normalized_bbox(cell.layout.bounding_poly),
+                        "confidence": cell.layout.confidence
                     })
                 tables.append(row_data)
     return tables
@@ -230,8 +233,8 @@ def save_output(result, out_path):
 
 # MAIN
 if __name__ == "__main__":
-    input_path = r"ITR DOC\BASIC\AADHAR CARD.pdf"
-    output_path = "aadhar_with_coords.json"
+    input_path = r"ITR DOC\invoice\google_invoice.pdf"
+    output_path = "invoicegoogle_with_coords.json"
     result = analyze_invoice(input_path)
     save_output(result, output_path)
     print(f"✅ Output saved to: {output_path}")
