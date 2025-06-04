@@ -9,7 +9,7 @@ import httpx
 # Initialize Gemini Client
 api_key = "AIzaSyAxv3tpH8ZGdLMe6n8kseFDl2QxSGtan9M"
 client = genai.Client(api_key=api_key)
-model_id = "gemini-2.0-flash"
+model_id = "gemini-1.5-flash"
 
 # Define schema for extractions
 class BoundingBox(BaseModel):
@@ -141,7 +141,7 @@ if os.path.exists(file_path):
     merged_result = extract_aadhaar_combined(file_path)
 
     # Save final output
-    output_json = "aadhaar_card_merged_output.json"
+    output_json = r"aadhaar_card_merged_output.json"
     with open(output_json, "w", encoding="utf-8") as f:
         json.dump(merged_result, f, indent=4, ensure_ascii=False)
 
